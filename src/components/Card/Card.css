@@ -1,0 +1,27 @@
+.card {
+	display: flex;
+	flex-direction: column;
+	width: 340px;
+	border: solid 2px black;
+	margin: 5px;
+}
+
+.cardContent {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 16px;
+	min-height: 80px;
+}
+
+.cardTitle {
+	font-weight: bold;
+}
+
+.cardPrice {
+	font-weight: bold;
+	text-align: right;
+}
+.cardProductQuantity {
+	text-align: center;
+}
